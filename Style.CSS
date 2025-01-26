@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #d4e9f8, #f6fbff); /* Unified gradient background */
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background: transparent; /* Let the gradient show through */
+    color: #3a6188;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.bucket-list {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.9); /* Transparent white box */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bucket-list h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bucket-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.bucket-list li:hover {
+    background-color: #e6f7ff;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+
+.footer {
+    text-align: center;
+    background: transparent;
+    color: #2c3e50;
+    padding: 20px 0;
+    font-size: 1rem;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer span {
+    color: #f1c40f; /* Gold */
+    font-weight: bold;
+}
